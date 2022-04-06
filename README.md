@@ -13,5 +13,5 @@ Ce programme représente notre
 **Comment le programme réceptionne les sockets ?**<br>
 -> [Connexions de la Raspberry PI](https://github.com/HandiMouv/Presentation-Generale/blob/main/DOCUMENTATION/Connexions%20du%20Raspberry%20PI%20.pdf)
 ## <a name="auteur"/> Auteur
-Charles SAISON
+Charles SAISON<br>
 Henri PETRELLI
