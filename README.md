@@ -7,24 +7,29 @@
 - [Auteur](#auteur)
 
 ## <a name="pres"/> Présentation
-Ce programme représente notre
+Ce programme représente notre démonstrateur. Il s'agit d'un serveur de socket qui va recevoir les ordres envoyés par la Raspberry et faire mouvoir le curseur de la souris de l'ordinateur.<br>
+Les commandes données ci-dessous sont à executer sous linux ou un git bash.
 ## <a name="init" /> Initialisation
 1) Téléchargez le repo sur votre ordinateur, la destination n'a pas d'importance.<br>
 ```bash
 git clone https://github.com/HandiMouv/Demonstrateur
 ```
-2) Placez vous dans le repo téléchargé.<br>
+2) Installez python3-venv<br>
+```bash
+sudo apt-get install -y python3-venv
+```
+3) Placez vous dans le repo téléchargé.<br>
 ```bash
 cd Demonstrateur
 ```
-3) Préparation de l'environnement python.<br>
+4) Préparation de l'environnement python.<br>
 ```bash
 python3 -m venv env #creation de l environnement virtuel python
 source ./env/bin/activate #active l environnement virtuel
 pip install -r requirements.txt #installation des dependances
 ```
 
-4) Sortir de l'environnement virtuel si vous souhaitez.
+5) Sortir de l'environnement virtuel si vous souhaitez.
 ```bash
 deactivate
 ```
